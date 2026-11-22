@@ -1,9 +1,9 @@
 cask "freexmltoolkit" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.4.0"
-  sha256 arm:   "3f5ea29716d2b8cdec033a58d7687147c70ab36bf35b214c11cef211a8b1d99a",
-         intel: "5c7e5f15ba37a0854a61a32717f57b46adfa37280302546692fe1b72d2ccc872"
+  version "3.5.0"
+  sha256 arm:   "9967c3c34562c0dbabd6d6db1ac439c5db3f11b854478603dcc4c94aeffbd12e",
+         intel: "8e58fb031d75e1e9139fc5f4a43e9090433a1489f1fa4e6d600b2a06c58ea6e6"
 
   url "https://github.com/karlkauc/FreeXmlToolkit/releases/download/v#{version}/FreeXmlToolkit-#{arch}-#{version}.dmg"
   name "FreeXmlToolkit"
